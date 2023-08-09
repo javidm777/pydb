@@ -1,3 +1,3 @@
 .idea/
 *.pyc
-local_*.py
+arad/local_settings.py
