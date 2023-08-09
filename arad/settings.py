@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'arad.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'arad_company',
+        'PASSWORD': 'arad',
+        'HOST': 'localhost',
+        'USER': 'arad',
+        'PORT': 5432,
     }
 }
 
