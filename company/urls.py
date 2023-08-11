@@ -1,11 +1,9 @@
 from django.urls import path, re_path
-from company.views import company_list, company_archive
+from company.views import company_list, company_details, product_company
 
 urlpatterns = [
     path('list/', company_list),
-    re_path('archive/(?P<year>[0-9]{4})', company_archive),
-    re_path('archive/(?P<year>[0-9]{4})/(?P<month>[0-9]{2})/', company_archive),
-
-
+    path('detail/<int:pk>/', company_details),
+    path('archive/product/<int:pk>/', product_company)
 
 ]

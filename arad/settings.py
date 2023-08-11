@@ -76,11 +76,11 @@ WSGI_APPLICATION = 'arad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'arad_company',
-        'PASSWORD': 'arad',
-        'HOST': 'localhost',
-        'USER': 'arad',
-        'PORT': 5432,
+        'NAME': DB_NAME,
+        'PASSWORD': DB_PASSWORD,
+        'HOST': DB_HOST,
+        'USER': DB_USER,
+        'PORT': DB_PORT,
     }
 }
 
