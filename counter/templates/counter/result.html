@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Results</title>
+</head>
+<body>
+    {% if success %}
+        <h1>Download Successful!</h1>
+        <p>Download the Excel file: <a href="{{ download_link }}" download>{{ download_link }}</a></p>
+    {% else %}
+        <h1>Download Failed!</h1>
+    {% endif %}
+</body>
+</html>

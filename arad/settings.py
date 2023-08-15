@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'company.apps.CompanyConfig',
     'catalogue.apps.CatalogueConfig',
+    'counter.apps.CounterConfig',
 ]
 
 MIDDLEWARE = [
