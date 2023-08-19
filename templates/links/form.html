@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Script Execution Form</title>
+</head>
+<body>
+    <h1>Script Execution Form</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="website">Website:</label><br>
+        <input type="text" id="website" name="website"><br>
+        <label for="wordpress_username">WordPress Username:</label><br>
+        <input type="text" id="wordpress_username" name="wordpress_username"><br>
+        <label for="wordpress_password">WordPress Password:</label><br>
+        <input type="password" id="wordpress_password" name="wordpress_password"><br><br>
+        <button type="submit">Execute Script</button>
+    </form>
+</body>
+</html>

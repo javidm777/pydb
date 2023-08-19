@@ -5,6 +5,7 @@ from .forms import WordpressDownloadForm
 from . import counter
 from django.http import FileResponse
 
+
 @login_required(login_url='/admin/login/')
 def download_wordpress(request):
     if request.method == 'POST':
@@ -32,7 +33,6 @@ def download_wordpress(request):
         form = WordpressDownloadForm()
     return render(request, 'counter/download_form.html',
                   {'form': form})
-
 
 
 def counter_page(request):

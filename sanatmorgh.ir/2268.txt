@@ -1,0 +1,27 @@
+مدیریت آب آشامیدنی: این همان چیزی است که یک جوجه گوشتی به آن نیاز دارد
+<section class="blog-detail-body aos-init aos-animate" data-aos="fade-up">
+<div class="container bg-white">
+<div class="row">
+<div class="col-lg-7">
+<div class="page-body">
+
+اگرچه آب ممکن است بخش بسیار کوچکی از تولید کامل به نظر برسد، اما مهمترین ماده غذایی برای رشد جوجه های گوشتی است.
+
+به همین دلیل است که صرف زمان و توجه کافی به کیفیت سیستم آب آشامیدنی و خود آب آشامیدنی برای دستیابی به حداکثر بهره وری در پایان سفر بسیار مهم است.
+
+اینفوگرافیک زیر نشانگر خوبی از تنظیمات و مقادیر کلیدی است که برای رسیدن به این هدف نیاز دارید.
+
+</div>
+</div>
+<div class="col-lg-4 d-flex flex-column ms-auto">
+<div id="thumbnails" class="gallery">
+<figure><a class="grid-item" href="https://impex.nl/uploads/media/cache/vleeskuiken-management-6176b434098d66-w1920-q75.jpg" data-src="/uploads/media/cache/vleeskuiken-management-6176b434098d66-w1920-q75.jpg" data-thumb="/uploads/media/cache/vleeskuiken-management-6176b434098d66-w400-q75.jpg"><img class="img-fluid" src="https://impex.nl/uploads/media/cache/vleeskuiken-management-6176b434098d66-w1200-q75.jpg" alt="مدیریت آب آشامیدنی جوجه های گوشتی" /></a></figure>
+</div>
+</div>
+</div>
+</div>
+</section><section class="pt-0">
+<div class="container-xl">
+<div class="row"></div>
+</div>
+</section>

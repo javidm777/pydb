@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Script Execution Result</title>
+</head>
+<body>
+    <h1>Script Execution Result</h1>
+    <p>{{ count }} contents were successfully fetched from the website.</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="website" value="{{ website }}">
+        <button type="submit" name="remove_arad_links">Remove Arad Links</button>
+        <button type="submit" name="create_links">Create Links</button>
+    </form>
+</body>
+</html>
