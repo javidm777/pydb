@@ -47,21 +47,21 @@ def get_wordpress_posts(wp_url, wp_username, wp_password, start_post,
 
     return False
 
-#
-# if __name__ == "__main__":
-#     website = 'morqdar.ir'
-#     wordpress_url = website
-#     wordpress_username = "admin"
-#     wordpress_password = "Ar@d2022# "
-#
-#     batch_size = 100  # تعداد پست‌ها در هر گروه
-#     output_directory = wordpress_url  # نام دایرکتوری خروجی
-#
-#     start_post = 1
-#     while True:
-#         success = get_wordpress_posts(wordpress_url, wordpress_username,
-#                                       wordpress_password, start_post,
-#                                       batch_size, output_directory)
-#         if not success:
-#             break
-#         start_post += batch_size
+
+if __name__ == "__main__":
+    website = 'morqdar.ir'
+    wordpress_url = website
+    wordpress_username = "admin"
+    wordpress_password = "Ar@d2022# "
+
+    batch_size = 100  # تعداد پست‌ها در هر گروه
+    output_directory = wordpress_url  # نام دایرکتوری خروجی
+
+    start_post = 1
+    while True:
+        success = get_wordpress_posts(wordpress_url, wordpress_username,
+                                      wordpress_password, start_post,
+                                      batch_size, output_directory)
+        if not success:
+            break
+        start_post += batch_size

@@ -29,4 +29,4 @@ def run_text_process(dir):
         print(f"Processed: {txt_file_path}")
 
 
-run_text_process(directory_path)
+

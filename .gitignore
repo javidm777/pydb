@@ -1,4 +1,4 @@
 .idea/
 *.pyc
 /arad/local_settings.py
-
+/arad/settings.py
