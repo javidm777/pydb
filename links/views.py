@@ -9,7 +9,7 @@ def form_view(request):
         wordpress_password = request.POST.get('wordpress_password')
 
         batch_size = 100
-        output_directory = website
+        output_directory = f'links/output/{website}'
 
         start_post = 1
         count = 0
